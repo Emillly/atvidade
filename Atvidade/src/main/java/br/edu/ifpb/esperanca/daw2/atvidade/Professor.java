@@ -10,8 +10,8 @@ import javax.persistence.SequenceGenerator;
 public class Professor implements Identificavel {
 	
 	@Id
-	@GeneratedValue(generator="disciplina_seq", strategy=GenerationType.SEQUENCE)
-	@SequenceGenerator(name="disciplina_seq")
+	@GeneratedValue(generator="professor_seq", strategy=GenerationType.SEQUENCE)
+	@SequenceGenerator(name="professor_seq")
 	private Long id_cpf;
 	
 	private String nome;
@@ -59,6 +59,8 @@ public class Professor implements Identificavel {
 	public void setGrupo(String grupo) {
 		this.grupo = grupo;
 	}
+
+
 	
 
 }

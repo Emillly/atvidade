@@ -9,7 +9,7 @@
 		<non-jta-data-source>java:/atvidade18</non-jta-data-source>
 
 		<!-- entidade mapeada -->
-		<class>br.edu.ifpb.esperanca.daw2.financeiro.Disciplinas</class>
+		<class>br.edu.ifpb.esperanca.daw2.atvidade.Professor</class>
 		
 
 
