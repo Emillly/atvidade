@@ -10,9 +10,11 @@
 
 		<!-- entidade mapeada -->
 		<class>br.edu.ifpb.esperanca.daw2.atvidade.Professor</class>
+		<class>br.edu.ifpb.esperanca.daw2.atvidade.Aluno</class>
+		<class>br.edu.ifpb.esperanca.daw2.atvidade.Disciplina</class>
+		<class>br.edu.ifpb.esperanca.daw2.atvidade.Turma</class>
 		
-
-
+		
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
 			<!-- dados da conexao -->
